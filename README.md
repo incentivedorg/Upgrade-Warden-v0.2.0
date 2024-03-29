@@ -1,5 +1,9 @@
 # Upgrade-Warden-v0.2.0
-``sudo systemctl stop wardend
+Applies to those who have installed according to previous instructions
+
+https://github.com/incentivedorg/Warden-protocol
+
+```sudo systemctl stop wardend
 sudo apt install unzip -y
 cd $HOME
 sudo rm -rf /usr/local/bin/wardend
@@ -11,4 +15,4 @@ sudo mv wardend /usr/local/bin/
 wardend version
 sudo systemctl daemon-reload
 sudo systemctl enable wardend
-sudo systemctl restart wardend && sudo journalctl -u wardend -f --no-hostname -o cat``
+sudo systemctl restart wardend && sudo journalctl -u wardend -f --no-hostname -o cat```
